@@ -6,6 +6,7 @@ This repo is meant to test your skill in forking/cloning and editing another per
 
 - Add a variable "computerChoice" and make it be randomly assigned a valid choice
 - Change variables to be more readable (i.e turn "var1" to "Choice")
-- Implement lizard Spock fucntionality: ![How R.P.S.L.S works](imgs/rpsls.jpg)
+- Instead of there being only 3 options, add 2 of your own, for example, Lizard and Spock as outlined in the chart below: 
+![How R.P.S.L.S works](imgs/rpsls.jpg)
 - Add input validation 
 
