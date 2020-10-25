@@ -6,7 +6,7 @@
 
 
 # These are the possible choices in the game, using the randint function, the computer will be a choice based on the integer it chooses
-list = ['rock', 'paper', 'scissors']
+list = ['rock', 'paper', 'scissorssssssssssssssssssssssssssss']
 
 
 # Compare var1 and computerChoice to see who wins
