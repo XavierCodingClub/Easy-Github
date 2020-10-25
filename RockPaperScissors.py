@@ -9,7 +9,7 @@
 list = ['rock', 'paper', 'scissors']
 
 
-
+computerChoice = 'rock'
 
 
 
