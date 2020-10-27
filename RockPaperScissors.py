@@ -119,3 +119,4 @@ elif computerChoice == 'lizard' and var1 == 'scissors':
 else:
     print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', you tied!')
+#did it in 16 minutes.
