@@ -1,7 +1,7 @@
 ##
 #
 # Author: FX Coding Club
-# Contributor: Jonathan Polina
+# Contributor: jpolina
 # Date 9/27/2020
 #
 import random
