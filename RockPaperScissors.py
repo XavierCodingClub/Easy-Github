@@ -13,18 +13,17 @@ list = ['rock', 'paper', 'scissors','lizard','spock']
 
 # The following is all the comparisons if the computer chooses "Rock"
 if computerChoice == 'rock' and var1 == 'scissors'):
-    print('You chose ' + var1 + ' and the computer chose ' +
-          computerChoice + ', The computer wins!')
+    print('You chose ' + var1 + ' and the computer chose ' + computerChoice + ', The computer wins!')
 
 elif computerChoice == 'rock' and var1 == 'paper'):
     print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', You win!')
 
-elif computerChoice == 'rock' and var1 == 'spock'):
+elif computerChoice == 'rock' and var1 == 'lizard'):
     print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', The computer wins!')
 
-elif computerChoice == 'rock' and var1 == 'lizard'):
+elif computerChoice == 'rock' and var1 == 'spock'):
     print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', You win!')
 
@@ -36,12 +35,12 @@ elif computerChoice == 'paper' and var1 == 'rock'):
 elif computerChoice == 'paper' and var1 == 'scissors'):
     print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', You win!')
-    
-elif computerChoice == 'paper' and var1 == 'lizard'):
+
+elif computerChoice == 'paper' and var1 == 'spock'):
     print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', The computer wins!')
 
-elif computerChoice == 'paper' and var1 == 'spock'):
+elif computerChoice == 'paper' and var1 == 'lizard'):
     print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', You win!')
 
@@ -53,48 +52,48 @@ elif computerChoice == 'scissors' and var1 == 'paper'):
 elif computerChoice == 'scissors' and var1 == 'rock'):
     print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', You win!')
-    
-elif computerChoice == 'scissors' and var1 == 'spock'):
+
+elif computerChoice == 'scissors' and var1 == 'lizard'):
     print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', The computer wins!')
 
-elif computerChoice == 'scissors' and var1 == 'lizard'):
+elif computerChoice == 'scissors' and var1 == 'spock'):
     print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', You win!')
 
 #spock rules
 
-elif computerChoice == 'spock' and var1 == 'paper'):
+elif computerChoice == 'spock' and var1 == 'scissors'):
     print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', The computer wins!')
 
-elif computerChoice == 'spock' and var1 == 'scissors'):
+elif computerChoice == 'spock' and var1 == 'paper'):
     print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', You win!')
-    
-elif computerChoice == 'spock' and var1 == 'lizard'):
-    print('You chose ' + var1 + ' and the computer chose ' +
-          computerChoice + ', The computer wins!')
 
 elif computerChoice == 'spock' and var1 == 'rock'):
     print('You chose ' + var1 + ' and the computer chose ' +
-          computerChoice + ', You win!')
-    
-#Lizard rules
-
-elif computerChoice == 'lizard' and var1 == 'rock'):
-    print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', The computer wins!')
+
+elif computerChoice == 'spock' and var1 == 'lizard'):
+    print('You chose ' + var1 + ' and the computer chose ' +
+          computerChoice + ', You win!')
+
+#Lizard rules
 
 elif computerChoice == 'lizard' and var1 == 'spock'):
     print('You chose ' + var1 + ' and the computer chose ' +
+          computerChoice + ', The computer wins!')
+
+elif computerChoice == 'lizard' and var1 == 'rock'):
+    print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', You win!')
-    
-elif computerChoice == 'lizard' and var1 == 'scissors'):
+
+elif computerChoice == 'lizard' and var1 == 'paper'):
     print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', The computer wins!')
 
-elif computerChoice == 'lizard' and var1 == 'paper'):
+elif computerChoice == 'lizard' and var1 == 'scissors'):
     print('You chose ' + var1 + ' and the computer chose ' +
           computerChoice + ', You win!')
 
