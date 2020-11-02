@@ -10,7 +10,7 @@ from random import randint
 list = ['rock', 'paper', 'scissors', 'spock', 'lizard']
 
 # Assign a random valid choice to computerChoice (computer answer)
-computerChoice = list[randint(0, 2)]
+computerChoice = list[randint(0, 4)]
 
 # Get user input and store
 isValid = False
@@ -74,6 +74,40 @@ elif computerChoice == 'scissors' and Choice == 'spock':
           computerChoice + ', You win!')
 
 elif computerChoice == 'scissors' and Choice == 'lizard':
+    print('You chose ' + Choice + ' and the computer chose ' +
+          computerChoice + ', The computer wins!')
+
+# The following is all the comparisons if the computer chooses "Spock"
+elif computerChoice == 'spock' and Choice == 'paper':
+    print('You chose ' + Choice + ' and the computer chose ' +
+          computerChoice + ', You win!')
+
+elif computerChoice == 'spock' and Choice == 'rock':
+    print('You chose ' + Choice + ' and the computer chose ' +
+          computerChoice + ', The computer wins!')
+
+elif computerChoice == 'spock' and Choice == 'scissors':
+    print('You chose ' + Choice + ' and the computer chose ' +
+          computerChoice + ', The computer wins!')
+
+elif computerChoice == 'spock' and Choice == 'lizard':
+    print('You chose ' + Choice + ' and the computer chose ' +
+          computerChoice + ', You win!')
+
+# The following is all the comparisons if the computer chooses "Lizard"
+elif computerChoice == 'lizard' and Choice == 'paper':
+    print('You chose ' + Choice + ' and the computer chose ' +
+          computerChoice + ', The computer wins!')
+
+elif computerChoice == 'lizard' and Choice == 'rock':
+    print('You chose ' + Choice + ' and the computer chose ' +
+          computerChoice + ', You win!')
+
+elif computerChoice == 'lizard' and Choice == 'scissors':
+    print('You chose ' + Choice + ' and the computer chose ' +
+          computerChoice + ', You win!')
+
+elif computerChoice == 'lizard' and Choice == 'spock':
     print('You chose ' + Choice + ' and the computer chose ' +
           computerChoice + ', The computer wins!')
 
