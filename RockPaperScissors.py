@@ -1,18 +1,26 @@
 ##
 #
-# Author: FX Coding Club
-# Date 9/24/2020
-#
+# Author: FX Coding Club, Ethan Bhalla
+# Date 11/03/2020
+#Description: This code
 
 import random as rnd
 
 # These are the possible choices in the game, using the randint function, the computer will be a choice based on the integer it chooses
 choices = ['rock', 'paper', 'scissors', 'pistol', 'water', 'sourya']
 
-
-playerChoice = str(input("Please enter your choice, choose between Rock, Paper, Scissors, Pistol, Sourya: ")).lower()
-
+playerChoice = ' '
 computerChoices = rnd.choice(choices)
+
+validatePlayerChoice = False
+
+
+while not validatePlayerChoice:
+    playerChoice = str(input("Please enter your choice, choose between Rock, Paper, Scissors, Pistol, Sourya: ")).lower()
+    if playerChoice in choices:
+        validatePlayerChoice = True
+    else:
+        print("Please try again, make sure you spell everything correctly")
 
 # Compare playerChoice and computerChoice to see who wins
 
@@ -105,19 +113,19 @@ elif computerChoices == 'water' and playerChoice == 'sourya':
 #The following us all the comparisons if the computer chooses "Sourya"
 
 elif computerChoices == 'sourya' and playerChoice == 'rock':
-    print('You chose' + playerChoice + ' and the computer chose' + computerChoices + ', The computer wins!')
+    print('You chose' + playerChoice + ' and the computer chose' + computerChoices + ', The computer wins! Sourya always wins')
 
 elif computerChoices == 'sourya' and playerChoice == 'paper':
-    print('You chose' + playerChoice + ' and the computer chose' + computerChoices + ', The computer wins!')
+    print('You chose' + playerChoice + ' and the computer chose' + computerChoices + ', The computer wins! Sourya always wins')
 
 elif computerChoices == 'sourya' and playerChoice == 'scissors':
-    print('You chose' + playerChoice + ' and the computer chose' + computerChoices + ', The computer wins!')
+    print('You chose' + playerChoice + ' and the computer chose' + computerChoices + ', The computer wins! Sourya always wins')
 
 elif computerChoices == 'sourya' and playerChoice == 'pistol':
-    print('You chose' + playerChoice + ' and the computer chose' + computerChoices + ', The computer wins!')
+    print('You chose' + playerChoice + ' and the computer chose' + computerChoices + ', The computer wins! Sourya always wins')
 
 elif computerChoices == 'sourya' and playerChoice == 'water':
-    print('You chose' + playerChoice + ' and the computer chose' + computerChoices + ', The computer wins!')
+    print('You chose' + playerChoice + ' and the computer chose' + computerChoices + ', The computer wins! Sourya always wins')
 
 #----------------------------------------------------------------------------------------------------
 # The case in which both the computer and the user chose the same one, and they tie
