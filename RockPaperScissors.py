@@ -2,7 +2,7 @@
 #
 # Author: FX Coding Club, Ethan Bhalla
 # Date 11/03/2020
-#Description: This code
+# Description: This code is an updated and skewed version of rock, paper, scissors!!
 
 import random as rnd
 
@@ -14,7 +14,7 @@ computerChoices = rnd.choice(choices)
 
 validatePlayerChoice = False
 
-
+#Input validation to make sure there are no user errors when inputting a choice
 while not validatePlayerChoice:
     playerChoice = str(input("Please enter your choice, choose between Rock, Paper, Scissors, Pistol, Sourya: ")).lower()
     if playerChoice in choices:
